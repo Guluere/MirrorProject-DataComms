@@ -1,0 +1,308 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf337ea89ae58df44bf347e369170b5f, type: 3}
+  m_Name: Tutorial
+  m_EditorClassIdentifier: 
+  Talking:
+  - TalkingPosition: 0
+    TalkerName: Abang Adi
+    TalkingText: Hello bang, you there
+    OptionTexts:
+    - ChoiceText: Say Yes
+      LoadTalkingPointPosition: 1
+      TriggerEventID: 0
+    - ChoiceText: Say No
+      LoadTalkingPointPosition: 11
+      TriggerEventID: 0
+    Delays:
+    - Char: 48
+      Delay: 0
+      TriggerEventID: 0
+    DefaultDelay: 0
+    OnStartTriggerEventID: 0
+    DefaultCharTriggerEventID: 0
+    OnEndTriggerEventID: 0
+  - TalkingPosition: 0
+    TalkerName: 'Harun Hadi  '
+    TalkingText: "Yes, I\u2019m here. Why?"
+    OptionTexts:
+    - ChoiceText: Continue
+      LoadTalkingPointPosition: 2
+      TriggerEventID: 0
+    Delays: []
+    DefaultDelay: 0
+    OnStartTriggerEventID: 0
+    DefaultCharTriggerEventID: 0
+    OnEndTriggerEventID: 0
+  - TalkingPosition: 0
+    TalkerName: 'Abang Adi '
+    TalkingText: Sorry for kacau you, I really need help.
+    OptionTexts:
+    - ChoiceText: Ask what happen
+      LoadTalkingPointPosition: 3
+      TriggerEventID: 0
+    - ChoiceText: "Say can\u2019t help"
+      LoadTalkingPointPosition: 13
+      TriggerEventID: 0
+    Delays: []
+    DefaultDelay: 0
+    OnStartTriggerEventID: 0
+    DefaultCharTriggerEventID: 0
+    OnEndTriggerEventID: 0
+  - TalkingPosition: 0
+    TalkerName: 'Harun Hadi  '
+    TalkingText: Is there any problem?
+    OptionTexts:
+    - ChoiceText: Continue
+      LoadTalkingPointPosition: 4
+      TriggerEventID: 0
+    Delays: []
+    DefaultDelay: 0
+    OnStartTriggerEventID: 0
+    DefaultCharTriggerEventID: 0
+    OnEndTriggerEventID: 0
+  - TalkingPosition: 0
+    TalkerName: 'Abang Adi '
+    TalkingText: Yes, the Legendary Keris has been stolen by the gang at my place.
+    OptionTexts:
+    - ChoiceText: Ask about the gang
+      LoadTalkingPointPosition: 5
+      TriggerEventID: 0
+    - ChoiceText: Ask about the guard
+      LoadTalkingPointPosition: 15
+      TriggerEventID: 0
+    - ChoiceText: "Ask why don\u2019t fight"
+      LoadTalkingPointPosition: 19
+      TriggerEventID: 0
+    Delays: []
+    DefaultDelay: 0
+    OnStartTriggerEventID: 0
+    DefaultCharTriggerEventID: 0
+    OnEndTriggerEventID: 0
+  - TalkingPosition: 0
+    TalkerName: 'Harun Hadi  '
+    TalkingText: Are they stronger than you and your guard?
+    OptionTexts:
+    - ChoiceText: Continue
+      LoadTalkingPointPosition: 6
+      TriggerEventID: 0
+    Delays: []
+    DefaultDelay: 0
+    OnStartTriggerEventID: 0
+    DefaultCharTriggerEventID: 0
+    OnEndTriggerEventID: 0
+  - TalkingPosition: 0
+    TalkerName: Abang Adi
+    TalkingText: Yes, they are stronger than us. But, I think you are stronger.
+    OptionTexts:
+    - ChoiceText: Say coming
+      LoadTalkingPointPosition: 7
+      TriggerEventID: 0
+    - ChoiceText: Say not coming
+      LoadTalkingPointPosition: 0
+      TriggerEventID: 0
+    Delays: []
+    DefaultDelay: 0
+    OnStartTriggerEventID: 0
+    DefaultCharTriggerEventID: 0
+    OnEndTriggerEventID: 0
+  - TalkingPosition: 0
+    TalkerName: Harun Hadi
+    TalkingText: OK. I will come right now.
+    OptionTexts:
+    - ChoiceText: Continue
+      LoadTalkingPointPosition: 8
+      TriggerEventID: 0
+    - ChoiceText: Say not coming
+      LoadTalkingPointPosition: 17
+      TriggerEventID: 0
+    Delays: []
+    DefaultDelay: 0
+    OnStartTriggerEventID: 0
+    DefaultCharTriggerEventID: 0
+    OnEndTriggerEventID: 0
+  - TalkingPosition: 0
+    TalkerName: Abang Adi
+    TalkingText: Thanks, bang! By the way, can you tapau a coconut jelly for me on
+      the way here?
+    OptionTexts:
+    - ChoiceText: Say Yes
+      LoadTalkingPointPosition: 9
+      TriggerEventID: 0
+    - ChoiceText: Say No
+      LoadTalkingPointPosition: 0
+      TriggerEventID: 0
+    Delays: []
+    DefaultDelay: 0
+    OnStartTriggerEventID: 0
+    DefaultCharTriggerEventID: 0
+    OnEndTriggerEventID: 0
+  - TalkingPosition: 0
+    TalkerName: Harun Hadi
+    TalkingText: Yeah, sure. I will bring it.
+    OptionTexts:
+    - ChoiceText: Continue
+      LoadTalkingPointPosition: 10
+      TriggerEventID: 0
+    Delays: []
+    DefaultDelay: 0
+    OnStartTriggerEventID: 0
+    DefaultCharTriggerEventID: 0
+    OnEndTriggerEventID: 0
+  - TalkingPosition: 0
+    TalkerName: Abang Adi
+    TalkingText: Thanks again. I will wait here.
+    OptionTexts: []
+    Delays: []
+    DefaultDelay: 0
+    OnStartTriggerEventID: 0
+    DefaultCharTriggerEventID: 0
+    OnEndTriggerEventID: 1
+  - TalkingPosition: 0
+    TalkerName: Harun Hadi
+    TalkingText: "No. I\u2019m busy."
+    OptionTexts:
+    - ChoiceText: Continue
+      LoadTalkingPointPosition: 12
+      TriggerEventID: 0
+    Delays: []
+    DefaultDelay: 0
+    OnStartTriggerEventID: 0
+    DefaultCharTriggerEventID: 0
+    OnEndTriggerEventID: 0
+  - TalkingPosition: 0
+    TalkerName: Abang Adi
+    TalkingText: Please help me, bang. This is urgent.
+    OptionTexts:
+    - ChoiceText: Ask what happen
+      LoadTalkingPointPosition: 3
+      TriggerEventID: 0
+    - ChoiceText: "Say can\u2019t help"
+      LoadTalkingPointPosition: 13
+      TriggerEventID: 0
+    - ChoiceText: Ignore
+      LoadTalkingPointPosition: 12
+      TriggerEventID: 0
+    Delays: []
+    DefaultDelay: 0
+    OnStartTriggerEventID: 0
+    DefaultCharTriggerEventID: 0
+    OnEndTriggerEventID: 0
+  - TalkingPosition: 0
+    TalkerName: Harun Hadi
+    TalkingText: "Sorry, can\u2019t help."
+    OptionTexts:
+    - ChoiceText: Continue
+      LoadTalkingPointPosition: 14
+      TriggerEventID: 0
+    Delays: []
+    DefaultDelay: 0
+    OnStartTriggerEventID: 0
+    DefaultCharTriggerEventID: 0
+    OnEndTriggerEventID: 0
+  - TalkingPosition: 0
+    TalkerName: Abang Adi
+    TalkingText: Please, the Legendary Keris has been stolen by the gang at my place.
+    OptionTexts:
+    - ChoiceText: Ask about the guard
+      LoadTalkingPointPosition: 15
+      TriggerEventID: 0
+    - ChoiceText: "Ask why don\u2019t fight"
+      LoadTalkingPointPosition: 0
+      TriggerEventID: 0
+    - ChoiceText: Say changing my mind
+      LoadTalkingPointPosition: 0
+      TriggerEventID: 0
+    Delays: []
+    DefaultDelay: 0
+    OnStartTriggerEventID: 0
+    DefaultCharTriggerEventID: 0
+    OnEndTriggerEventID: 0
+  - TalkingPosition: 0
+    TalkerName: Harun Hadi
+    TalkingText: How? I thought your guard is trained
+    OptionTexts:
+    - ChoiceText: Continue
+      LoadTalkingPointPosition: 16
+      TriggerEventID: 0
+    Delays: []
+    DefaultDelay: 0
+    OnStartTriggerEventID: 0
+    DefaultCharTriggerEventID: 0
+    OnEndTriggerEventID: 0
+  - TalkingPosition: 0
+    TalkerName: Abang Adi
+    TalkingText: "That\u2019s why I call you, bang. You are better than them."
+    OptionTexts:
+    - ChoiceText: Say coming
+      LoadTalkingPointPosition: 16
+      TriggerEventID: 0
+    - ChoiceText: Say not coming
+      LoadTalkingPointPosition: 17
+      TriggerEventID: 0
+    - ChoiceText: Continue
+      LoadTalkingPointPosition: 16
+      TriggerEventID: 0
+    Delays: []
+    DefaultDelay: 0
+    OnStartTriggerEventID: 0
+    DefaultCharTriggerEventID: 0
+    OnEndTriggerEventID: 0
+  - TalkingPosition: 0
+    TalkerName: Harun Hadi
+    TalkingText: "Sorry. Can\u2019t come to your place now."
+    OptionTexts:
+    - ChoiceText: Continue
+      LoadTalkingPointPosition: 18
+      TriggerEventID: 0
+    Delays: []
+    DefaultDelay: 0
+    OnStartTriggerEventID: 0
+    DefaultCharTriggerEventID: 0
+    OnEndTriggerEventID: 0
+  - TalkingPosition: 0
+    TalkerName: Abang Adi
+    TalkingText: So sad that to hear that.
+    OptionTexts: []
+    Delays: []
+    DefaultDelay: 0
+    OnStartTriggerEventID: 0
+    DefaultCharTriggerEventID: 0
+    OnEndTriggerEventID: 1
+  - TalkingPosition: 0
+    TalkerName: Harun Hadi
+    TalkingText: "Why don\u2019t you fight and take it"
+    OptionTexts:
+    - ChoiceText: Continue
+      LoadTalkingPointPosition: 20
+      TriggerEventID: 0
+    Delays: []
+    DefaultDelay: 0
+    OnStartTriggerEventID: 0
+    DefaultCharTriggerEventID: 0
+    OnEndTriggerEventID: 1
+  - TalkingPosition: 0
+    TalkerName: Abang Adi
+    TalkingText: "I\u2019m not pro like you, bang. You far better than me. That\u2019s
+      why I call you."
+    OptionTexts:
+    - ChoiceText: Say coming
+      LoadTalkingPointPosition: 7
+      TriggerEventID: 0
+    - ChoiceText: Say not coming
+      LoadTalkingPointPosition: 17
+      TriggerEventID: 0
+    Delays: []
+    DefaultDelay: 0
+    OnStartTriggerEventID: 0
+    DefaultCharTriggerEventID: 0
+    OnEndTriggerEventID: 1
